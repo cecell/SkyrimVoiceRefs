@@ -1,0 +1,1173 @@
+{
+ "format": 2,
+ "archive": "Skyrim - Voices_en0.bsa",
+ "decoder": "ffmpeg (xWMA/wmav2 -> 16-bit mono PCM)",
+ "sample_rate": 44100,
+ "pad_s": 0.1,
+ "gap_s": 0.3,
+ "fade_s": 0.01,
+ "voices": {
+  "crdragonvoice": {
+   "samples": 642305,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\crdragonvoice\\dlc1vqdragon__0000c70b_1.fuz",
+     "start": 0,
+     "end": 642305,
+     "source_samples": 673792
+    }
+   ]
+  },
+  "cruniquepaarthurnax": {
+   "samples": 690407,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\cruniquepaarthurnax\\mq306_mq306paarthurnaxintr_0009c20b_1.fuz",
+     "start": 1323,
+     "end": 691730,
+     "source_samples": 733184
+    }
+   ]
+  },
+  "dlc1femaleuniquevalerica": {
+   "samples": 980468,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1femaleuniquevalerica\\dlc1vq05_dlc1vq05valericai_0000f853_1.fuz",
+     "start": 0,
+     "end": 438272,
+     "source_samples": 438272
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1femaleuniquevalerica\\dlc1vq05_dlc1vq05valericai_0000f84f_4.fuz",
+     "start": 0,
+     "end": 528966,
+     "source_samples": 538624
+    }
+   ]
+  },
+  "dlc1maleuniquedexion": {
+   "samples": 898887,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniquedexion\\dlc1vq03va_dlc1vq03vampire_00006aa2_3.fuz",
+     "start": 0,
+     "end": 466944,
+     "source_samples": 466944
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniquedexion\\dlc1vqelde_dlc1vqelderhand_000181bc_2.fuz",
+     "start": 0,
+     "end": 418713,
+     "source_samples": 421888
+    }
+   ]
+  },
+  "dlc1maleuniquegunmar": {
+   "samples": 746414,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniquegunmar\\dlc1dialog__00016398_1.fuz",
+     "start": 0,
+     "end": 356352,
+     "source_samples": 356352
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniquegunmar\\dlc1dialog_dlc1dialoguehun_00015cf0_2.fuz",
+     "start": 0,
+     "end": 376832,
+     "source_samples": 376832
+    }
+   ]
+  },
+  "dlc1maleuniqueharkon": {
+   "samples": 1051566,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniqueharkon\\dlc1vq02_dlc1vq02harkonbra_00003ba4_2.fuz",
+     "start": 0,
+     "end": 497664,
+     "source_samples": 497664
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniqueharkon\\dlc1vq08_dlc1vq08harkonret_00019f82_1.fuz",
+     "start": 0,
+     "end": 540672,
+     "source_samples": 540672
+    }
+   ]
+  },
+  "dlc1maleuniqueisran": {
+   "samples": 851110,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniqueisran\\dlc1vq03hunter__000098bd_2.fuz",
+     "start": 0,
+     "end": 434151,
+     "source_samples": 436224
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1maleuniqueisran\\dlc1hunter_dlc1hunterbasei_00017fea_3.fuz",
+     "start": 0,
+     "end": 403729,
+     "source_samples": 413696
+    }
+   ]
+  },
+  "dlc1seranavoice": {
+   "samples": 824238,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1seranavoice\\dlc1vq04_dlc1vq04rnpcareat_00003c17_2.fuz",
+     "start": 0,
+     "end": 387072,
+     "source_samples": 387072
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\dlc1seranavoice\\dlc1vq05_dlc1vq05relations_00014f82_1.fuz",
+     "start": 0,
+     "end": 423936,
+     "source_samples": 423936
+    }
+   ]
+  },
+  "dlc2femaledarkelfcommoner": {
+   "samples": 741739,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2femaledarkelfcommoner\\dlc2dialog_dlc2drrbeggarss_00034f83_3.fuz",
+     "start": 0,
+     "end": 345514,
+     "source_samples": 348160
+    },
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2femaledarkelfcommoner\\dlc2rrfavo_dlc2rrfavor06in_00024fa3_2.fuz",
+     "start": 441,
+     "end": 383436,
+     "source_samples": 385024
+    }
+   ]
+  },
+  "dlc2femaleuniquefrea": {
+   "samples": 878432,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2femaleuniquefrea\\dlc2mq07_dlc2mq07freaendgr_00038540_1.fuz",
+     "start": 441,
+     "end": 454436,
+     "source_samples": 454656
+    },
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2femaleuniquefrea\\dlc2mq07_dlc2mq07freaendgr_00038549_2.fuz",
+     "start": 441,
+     "end": 411648,
+     "source_samples": 411648
+    }
+   ]
+  },
+  "dlc2maledarkelfcommoner": {
+   "samples": 832822,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maledarkelfcommoner\\dlc2mq01_dlc2mq01rrmiraakq_000240d7_1.fuz",
+     "start": 441,
+     "end": 391168,
+     "source_samples": 391168
+    },
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maledarkelfcommoner\\dlc2dialoguebandits__00026226_1.fuz",
+     "start": 2646,
+     "end": 431511,
+     "source_samples": 432128
+    }
+   ]
+  },
+  "dlc2maledarkelfcynical": {
+   "samples": 608256,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maledarkelfcynical\\dlc2dunkol_dlc2dunkolbjorn_00027598_1.fuz",
+     "start": 0,
+     "end": 608256,
+     "source_samples": 608256
+    }
+   ]
+  },
+  "dlc2maleuniqueadril": {
+   "samples": 908907,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maleuniqueadril\\dlc2rrarri_dlc2rrarrivalsc_00039254_1.fuz",
+     "start": 0,
+     "end": 479144,
+     "source_samples": 479232
+    },
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maleuniqueadril\\dlc2rr02_dlc2rr02adrilfoun_0001f2e4_2.fuz",
+     "start": 882,
+     "end": 417415,
+     "source_samples": 419840
+    }
+   ]
+  },
+  "dlc2maleuniqueneloth": {
+   "samples": 646939,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maleuniqueneloth\\dlc2mq04__0001bba0_1.fuz",
+     "start": 0,
+     "end": 318606,
+     "source_samples": 319488
+    },
+    {
+     "path": "sound\\voice\\dragonborn.esm\\dlc2maleuniqueneloth\\dlc2mq04__00025077_1.fuz",
+     "start": 0,
+     "end": 315103,
+     "source_samples": 317440
+    }
+   ]
+  },
+  "femaleargonian": {
+   "samples": 904482,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleargonian\\ms04_ms04avanchnzelinnkeep_00056551_1.fuz",
+     "start": 0,
+     "end": 470334,
+     "source_samples": 471040
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleargonian\\favor204_favor031giveitemb_000bfa05_3.fuz",
+     "start": 441,
+     "end": 421359,
+     "source_samples": 421888
+    }
+   ]
+  },
+  "femalechild": {
+   "samples": 649825,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalechild\\darkbrothe__000167e2_1.fuz",
+     "start": 441,
+     "end": 327680,
+     "source_samples": 327680
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalechild\\dialogueri_dialogueriftenh_00016ca3_1.fuz",
+     "start": 0,
+     "end": 309356,
+     "source_samples": 311296
+    }
+   ]
+  },
+  "femalecommander": {
+   "samples": 1012982,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecommander\\cwdialogue_cwdialoguehello_0008324f_1.fuz",
+     "start": 0,
+     "end": 491520,
+     "source_samples": 491520
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecommander\\cwdialogue_cwdialoguehello_0008324d_1.fuz",
+     "start": 1323,
+     "end": 509555,
+     "source_samples": 509952
+    }
+   ]
+  },
+  "femalecommoner": {
+   "samples": 853277,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecommoner\\db06__00044048_1.fuz",
+     "start": 1764,
+     "end": 389203,
+     "source_samples": 393216
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecommoner\\dialogueol_dialogueoldhrol_000c822b_3.fuz",
+     "start": 0,
+     "end": 452608,
+     "source_samples": 452608
+    }
+   ]
+  },
+  "femalecondescending": {
+   "samples": 843252,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecondescending\\dialoguewi_dialoguewindhel_000a17e8_2.fuz",
+     "start": 5733,
+     "end": 415631,
+     "source_samples": 417792
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecondescending\\relationshipmarriagefin__000ccd5e_1.fuz",
+     "start": 1764,
+     "end": 421888,
+     "source_samples": 421888
+    }
+   ]
+  },
+  "femalecoward": {
+   "samples": 565973,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalecoward\\dialogueri_dialogueriftenh_000423bd_1.fuz",
+     "start": 1323,
+     "end": 567296,
+     "source_samples": 567296
+    }
+   ]
+  },
+  "femaledarkelf": {
+   "samples": 1046255,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaledarkelf\\da01_da01araneaintrotopic0_0008cf81_3.fuz",
+     "start": 0,
+     "end": 518144,
+     "source_samples": 518144
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaledarkelf\\da02_da02whosboethiah_0004d8be_2.fuz",
+     "start": 441,
+     "end": 515322,
+     "source_samples": 518144
+    }
+   ]
+  },
+  "femaleelfhaughty": {
+   "samples": 954119,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleelfhaughty\\darkbrothe__00034cf3_1.fuz",
+     "start": 0,
+     "end": 477184,
+     "source_samples": 477184
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleelfhaughty\\darkbrothe_darkcontracthel_0006c3f5_1.fuz",
+     "start": 0,
+     "end": 463705,
+     "source_samples": 464896
+    }
+   ]
+  },
+  "femaleeventoned": {
+   "samples": 625786,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleeventoned\\favor104_favor104questgive_00068f3f_1.fuz",
+     "start": 5733,
+     "end": 321280,
+     "source_samples": 331776
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\femaleeventoned\\dlc1_wesc0_dlc01_wesc01_he_000034bc_1.fuz",
+     "start": 0,
+     "end": 297009,
+     "source_samples": 344064
+    }
+   ]
+  },
+  "femalekhajiit": {
+   "samples": 950175,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalekhajiit\\caravanscene3__00072e31_1.fuz",
+     "start": 1323,
+     "end": 456704,
+     "source_samples": 456704
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalekhajiit\\caravanscene7__00072d27_1.fuz",
+     "start": 1764,
+     "end": 483328,
+     "source_samples": 483328
+    }
+   ]
+  },
+  "femalenord": {
+   "samples": 1049993,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalenord\\dialogueguardsgeneral__000dd082_1.fuz",
+     "start": 882,
+     "end": 521025,
+     "source_samples": 524288
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalenord\\db05_db05goodtimebranchtop_000a703b_1.fuz",
+     "start": 441,
+     "end": 517061,
+     "source_samples": 520192
+    }
+   ]
+  },
+  "femaleoldgrumpy": {
+   "samples": 929210,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleoldgrumpy\\dialogueriften__0008bac7_1.fuz",
+     "start": 0,
+     "end": 428032,
+     "source_samples": 428032
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleoldgrumpy\\dialoguewi_windhelmidles_000d4f92_1.fuz",
+     "start": 2646,
+     "end": 490594,
+     "source_samples": 491520
+    }
+   ]
+  },
+  "femaleoldkindly": {
+   "samples": 935936,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleoldkindly\\dialoguewh_whiterunolavare_0009cccf_1.fuz",
+     "start": 0,
+     "end": 935936,
+     "source_samples": 935936
+    }
+   ]
+  },
+  "femaleorc": {
+   "samples": 877456,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleorc\\dialogueor_dialogueorcsgua_000bba8e_1.fuz",
+     "start": 1323,
+     "end": 438556,
+     "source_samples": 440320
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleorc\\da06_da06stage40atubbranch_0003bdc3_2.fuz",
+     "start": 3087,
+     "end": 430080,
+     "source_samples": 430080
+    }
+   ]
+  },
+  "femaleshrill": {
+   "samples": 963144,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleshrill\\mgcollegelectureinfos__000e0c5b_1.fuz",
+     "start": 0,
+     "end": 468992,
+     "source_samples": 468992
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleshrill\\freeformdr_freeformdragonb_000552bc_1.fuz",
+     "start": 3528,
+     "end": 484450,
+     "source_samples": 485376
+    }
+   ]
+  },
+  "femalesultry": {
+   "samples": 1009239,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalesultry\\darkbrotherhood__000fdbce_1.fuz",
+     "start": 441,
+     "end": 490594,
+     "source_samples": 491520
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femalesultry\\darkbrotherhood__000fdbe6_1.fuz",
+     "start": 0,
+     "end": 505856,
+     "source_samples": 505856
+    }
+   ]
+  },
+  "femaleuniqueastrid": {
+   "samples": 794183,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniqueastrid\\db10_astridplayersetupchoi_0004d6be_1.fuz",
+     "start": 441,
+     "end": 794624,
+     "source_samples": 794624
+    }
+   ]
+  },
+  "femaleuniquedelphine": {
+   "samples": 934830,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquedelphine\\freeformskyhaventemplea__000e67f1_1.fuz",
+     "start": 0,
+     "end": 479232,
+     "source_samples": 479232
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquedelphine\\mqpaarthur_mqpaarthurnaxa2_000428da_1.fuz",
+     "start": 0,
+     "end": 442368,
+     "source_samples": 442368
+    }
+   ]
+  },
+  "femaleuniquekarliah": {
+   "samples": 818946,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquekarliah\\tg09_tg09karliahpowerbranc_0009759f_3.fuz",
+     "start": 1764,
+     "end": 386543,
+     "source_samples": 387072
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquekarliah\\tg06_tg06karliahmercergall_0004dbbf_2.fuz",
+     "start": 441,
+     "end": 421378,
+     "source_samples": 423936
+    }
+   ]
+  },
+  "femaleuniquemaven": {
+   "samples": 875344,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquemaven\\ms03_ms03mavenoffertopic2_00074a3f_3.fuz",
+     "start": 0,
+     "end": 415650,
+     "source_samples": 419840
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquemaven\\ms03_ms03mavenoffertopic_0001da36_1.fuz",
+     "start": 0,
+     "end": 446464,
+     "source_samples": 446464
+    }
+   ]
+  },
+  "femaleuniquemirabelleervine": {
+   "samples": 854958,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquemirabelleervine\\mg01__000e1b9d_1.fuz",
+     "start": 0,
+     "end": 378880,
+     "source_samples": 378880
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquemirabelleervine\\mg06_mg06stage10mirabellee_0002757b_3.fuz",
+     "start": 0,
+     "end": 462848,
+     "source_samples": 462848
+    }
+   ]
+  },
+  "femaleuniquevex": {
+   "samples": 755395,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquevex\\tg02b_tg02bvexintrobrancht_00084aba_2.fuz",
+     "start": 0,
+     "end": 387861,
+     "source_samples": 391168
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleuniquevex\\tgrshell_tgrshellslbrancht_0002e9fd_1.fuz",
+     "start": 0,
+     "end": 354304,
+     "source_samples": 354304
+    }
+   ]
+  },
+  "femaleyoungeager": {
+   "samples": 750813,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleyoungeager\\da02__000b3e2e_2.fuz",
+     "start": 882,
+     "end": 391168,
+     "source_samples": 391168
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\femaleyoungeager\\dialogueso__0003679a_1.fuz",
+     "start": 2646,
+     "end": 349943,
+     "source_samples": 350208
+    }
+   ]
+  },
+  "maleargonian": {
+   "samples": 1006794,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleargonian\\darkbrothe__00034cfb_1.fuz",
+     "start": 0,
+     "end": 505856,
+     "source_samples": 505856
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleargonian\\dialogueco_dcetidle_00096531_1.fuz",
+     "start": 1764,
+     "end": 489472,
+     "source_samples": 489472
+    }
+   ]
+  },
+  "malebandit": {
+   "samples": 640987,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malebandit\\dialogueco_dcetidle_00096531_1.fuz",
+     "start": 2205,
+     "end": 643192,
+     "source_samples": 669696
+    }
+   ]
+  },
+  "malebrute": {
+   "samples": 913752,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malebrute\\darkbrothe_darkcontracthel_0006c414_1.fuz",
+     "start": 1323,
+     "end": 468992,
+     "source_samples": 468992
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malebrute\\darkbrothe_darkaboutyourse_0006c3df_3.fuz",
+     "start": 1323,
+     "end": 434176,
+     "source_samples": 434176
+    }
+   ]
+  },
+  "malechild": {
+   "samples": 873390,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malechild\\dialogueri_dialogueriftenh_00016ca8_1.fuz",
+     "start": 0,
+     "end": 430080,
+     "source_samples": 430080
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malechild\\dialogueri_dialogueriftenh_0008bbcd_1.fuz",
+     "start": 0,
+     "end": 430080,
+     "source_samples": 430080
+    }
+   ]
+  },
+  "malecommander": {
+   "samples": 950508,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\malecommander\\dlc1dunred_dlc1dunredwater_0001635b_1.fuz",
+     "start": 0,
+     "end": 495616,
+     "source_samples": 495616
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecommander\\dbdestroy_dbdestroymarofir_00094e36_3.fuz",
+     "start": 0,
+     "end": 441662,
+     "source_samples": 442368
+    }
+   ]
+  },
+  "malecommoner": {
+   "samples": 900086,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecommoner\\ms03_ms03louismotivationto_00074a4c_1.fuz",
+     "start": 0,
+     "end": 444758,
+     "source_samples": 452608
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecommoner\\da14_da14askaboutstaffinti_000c41fe_1.fuz",
+     "start": 882,
+     "end": 442980,
+     "source_samples": 446464
+    }
+   ]
+  },
+  "malecommoneraccented": {
+   "samples": 929607,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecommoneraccented\\da05_da05sindingexplainatt_0002be58_6.fuz",
+     "start": 0,
+     "end": 443005,
+     "source_samples": 444416
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecommoneraccented\\rorikstead__0004ec4b_1.fuz",
+     "start": 1764,
+     "end": 475136,
+     "source_samples": 475136
+    }
+   ]
+  },
+  "malecondescending": {
+   "samples": 1042492,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecondescending\\db09__00064114_1.fuz",
+     "start": 0,
+     "end": 501760,
+     "source_samples": 501760
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecondescending\\dialoguewh__0007ec19_1.fuz",
+     "start": 882,
+     "end": 528384,
+     "source_samples": 528384
+    }
+   ]
+  },
+  "malecoward": {
+   "samples": 1032296,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecoward\\dialoguewi__00037eba_1.fuz",
+     "start": 441,
+     "end": 503411,
+     "source_samples": 503808
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malecoward\\favor205_favor205questgive_00070437_2.fuz",
+     "start": 0,
+     "end": 516096,
+     "source_samples": 516096
+    }
+   ]
+  },
+  "maledarkelf": {
+   "samples": 1012069,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maledarkelf\\dialogueco_dcetidle_00096531_1.fuz",
+     "start": 5292,
+     "end": 469437,
+     "source_samples": 483328
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maledarkelf\\darksideco_dbmalurilkillch_00024e5d_2.fuz",
+     "start": 3087,
+     "end": 537781,
+     "source_samples": 542720
+    }
+   ]
+  },
+  "maledrunk": {
+   "samples": 923212,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maledrunk\\dialoguewh_whiterunbrenuin_00093809_3.fuz",
+     "start": 441,
+     "end": 454656,
+     "source_samples": 454656
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maledrunk\\favor013_favor013persuadei_0003f067_1.fuz",
+     "start": 0,
+     "end": 455767,
+     "source_samples": 464896
+    }
+   ]
+  },
+  "maleelfhaughty": {
+   "samples": 924017,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\maleelfhaughty\\dlc1rv06_dlc1rv06startcont_000058be_3.fuz",
+     "start": 0,
+     "end": 466371,
+     "source_samples": 466944
+    },
+    {
+     "path": "sound\\voice\\dawnguard.esm\\maleelfhaughty\\dlc1rv03_dlc1rv03starttopi_000050b3_3.fuz",
+     "start": 0,
+     "end": 444416,
+     "source_samples": 444416
+    }
+   ]
+  },
+  "maleeventoned": {
+   "samples": 939307,
+   "clips": [
+    {
+     "path": "sound\\voice\\dawnguard.esm\\maleeventoned\\dlc1vampir_dlc1vampireturn_0000b53d_1.fuz",
+     "start": 0,
+     "end": 447815,
+     "source_samples": 458752
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleeventoned\\dialogueco_dcetidle_00096531_1.fuz",
+     "start": 882,
+     "end": 479144,
+     "source_samples": 479232
+    }
+   ]
+  },
+  "maleeventonedaccented": {
+   "samples": 944172,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleeventonedaccented\\db05_db05goodtimebranchtop_000a7041_1.fuz",
+     "start": 2646,
+     "end": 464582,
+     "source_samples": 468992
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleeventonedaccented\\dbrecurrin_dbrecurringcont_00087b7d_1.fuz",
+     "start": 441,
+     "end": 469447,
+     "source_samples": 475136
+    }
+   ]
+  },
+  "maleforsworn": {
+   "samples": 688502,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleforsworn\\dialogueco_dcetnoticecorps_000cdaf6_1.fuz",
+     "start": 0,
+     "end": 217088,
+     "source_samples": 217088
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleforsworn\\duneldergl_duneldergleamt0_0001fb79_1.fuz",
+     "start": 1323,
+     "end": 225578,
+     "source_samples": 233472
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleforsworn\\widragonki_widragonkilleds_00050cc8_1.fuz",
+     "start": 0,
+     "end": 220699,
+     "source_samples": 221184
+    }
+   ]
+  },
+  "maleguard": {
+   "samples": 1047710,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleguard\\dialogueguardsgeneral__000d2aef_1.fuz",
+     "start": 1764,
+     "end": 514004,
+     "source_samples": 514048
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleguard\\dialogueguardsgeneral__000d2aed_1.fuz",
+     "start": 0,
+     "end": 522240,
+     "source_samples": 522240
+    }
+   ]
+  },
+  "malekhajiit": {
+   "samples": 1026392,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malekhajiit\\da13_da13keshbthardamzbran_000c1920_1.fuz",
+     "start": 1764,
+     "end": 493568,
+     "source_samples": 493568
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malekhajiit\\da13_da13keshfetchdetailst_00089982_1.fuz",
+     "start": 882,
+     "end": 522240,
+     "source_samples": 522240
+    }
+   ]
+  },
+  "malenord": {
+   "samples": 795322,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malenord\\dialoguewh__0003a145_1.fuz",
+     "start": 9702,
+     "end": 805024,
+     "source_samples": 817152
+    }
+   ]
+  },
+  "malenordcommander": {
+   "samples": 585728,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malenordcommander\\mq304_mq304ysgramorintro1_000ec3a4_3.fuz",
+     "start": 0,
+     "end": 585728,
+     "source_samples": 585728
+    }
+   ]
+  },
+  "maleoldgrumpy": {
+   "samples": 629461,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleoldgrumpy\\darkbrothe_db08_festus_gou_00048c91_6.fuz",
+     "start": 1323,
+     "end": 630784,
+     "source_samples": 630784
+    }
+   ]
+  },
+  "maleoldkindly": {
+   "samples": 1039102,
+   "clips": [
+    {
+     "path": "sound\\voice\\dragonborn.esm\\maleoldkindly\\dlc2rr03_dlc2rr03cresciusi_000209fc_1.fuz",
+     "start": 0,
+     "end": 507904,
+     "source_samples": 507904
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleoldkindly\\ms01__000d6697_2.fuz",
+     "start": 0,
+     "end": 517968,
+     "source_samples": 518144
+    }
+   ]
+  },
+  "maleorc": {
+   "samples": 881781,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleorc\\darksideco_dblurbukkillcho_0002412f_2.fuz",
+     "start": 1764,
+     "end": 883545,
+     "source_samples": 884736
+    }
+   ]
+  },
+  "maleslycynical": {
+   "samples": 567296,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleslycynical\\ms05_ms05givepoemtopic_00057a4e_2.fuz",
+     "start": 0,
+     "end": 567296,
+     "source_samples": 567296
+    }
+   ]
+  },
+  "malesoldier": {
+   "samples": 802165,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\malesoldier\\db09__0005a866_1.fuz",
+     "start": 0,
+     "end": 397552,
+     "source_samples": 399360
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\malesoldier\\db09__0005a864_1.fuz",
+     "start": 882,
+     "end": 392265,
+     "source_samples": 395264
+    }
+   ]
+  },
+  "maleuniquearngeir": {
+   "samples": 704307,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquearngeir\\mq00_mq00shared_000c5226_2.fuz",
+     "start": 0,
+     "end": 370688,
+     "source_samples": 370688
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquearngeir\\mq105__00078b3b_1.fuz",
+     "start": 882,
+     "end": 321271,
+     "source_samples": 321536
+    }
+   ]
+  },
+  "maleuniquebrynjolf": {
+   "samples": 801837,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquebrynjolf\\tg08a_tg08abrynjolfpostoat_0009194a_2.fuz",
+     "start": 2646,
+     "end": 401408,
+     "source_samples": 401408
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquebrynjolf\\tg07_tg07brynjolfintrobran_00055fc6_1.fuz",
+     "start": 1323,
+     "end": 391168,
+     "source_samples": 391168
+    }
+   ]
+  },
+  "maleuniquecicero": {
+   "samples": 895260,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquecicero\\db04__0003bb7e_1.fuz",
+     "start": 1764,
+     "end": 897024,
+     "source_samples": 897024
+    }
+   ]
+  },
+  "maleuniquedelvinmallory": {
+   "samples": 1018156,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquedelvinmallory\\darkbrothe_dbsancrepairmal_00087b6f_1.fuz",
+     "start": 0,
+     "end": 488830,
+     "source_samples": 491520
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquedelvinmallory\\darkbrothe_dbsancmalloryre_00098b5e_1.fuz",
+     "start": 0,
+     "end": 516096,
+     "source_samples": 516096
+    }
+   ]
+  },
+  "maleuniqueesbern": {
+   "samples": 573087,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniqueesbern\\mq203_mq203esbernalduinswa_000add31_1.fuz",
+     "start": 0,
+     "end": 573087,
+     "source_samples": 573440
+    }
+   ]
+  },
+  "maleuniquegalmar": {
+   "samples": 567296,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquegalmar\\cw01b_cw01bgalmargreetread_000e2d06_1.fuz",
+     "start": 0,
+     "end": 567296,
+     "source_samples": 567296
+    }
+   ]
+  },
+  "maleuniquehadvar": {
+   "samples": 837422,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquehadvar\\cwsharedin_cwsharedinfosta_000e7231_1.fuz",
+     "start": 0,
+     "end": 386959,
+     "source_samples": 389120
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquehadvar\\cwsharedin_cwsharedinfosta_000e724d_1.fuz",
+     "start": 882,
+     "end": 438115,
+     "source_samples": 440320
+    }
+   ]
+  },
+  "maleuniquekodlakwhitemane": {
+   "samples": 992800,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquekodlakwhitemane\\dialogueco_dialoguecompani_000dab2f_6.fuz",
+     "start": 3087,
+     "end": 473088,
+     "source_samples": 473088
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquekodlakwhitemane\\mq304_mq304lostsoulblockin_00109c2d_2.fuz",
+     "start": 882,
+     "end": 510451,
+     "source_samples": 516096
+    }
+   ]
+  },
+  "maleuniquemercerfrey": {
+   "samples": 530294,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquemercerfrey\\tg05_tg05mercerkarliahpurs_000b8387_2.fuz",
+     "start": 0,
+     "end": 530294,
+     "source_samples": 534528
+    }
+   ]
+  },
+  "maleuniquenazir": {
+   "samples": 556781,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquenazir\\dbeviction_dbnazireviction_0006f99b_1.fuz",
+     "start": 1764,
+     "end": 558545,
+     "source_samples": 565248
+    }
+   ]
+  },
+  "maleuniquetullius": {
+   "samples": 932692,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquetullius\\cw_cwsharedinfo_000a6cbc_1.fuz",
+     "start": 2646,
+     "end": 460613,
+     "source_samples": 468992
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniquetullius\\cw_cwsharedinfo_000a6cb7_1.fuz",
+     "start": 1764,
+     "end": 463259,
+     "source_samples": 468992
+    }
+   ]
+  },
+  "maleuniqueulfric": {
+   "samples": 1072702,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniqueulfric\\mq00_mqulfrictrainwithgrey_000bfc43_2.fuz",
+     "start": 441,
+     "end": 514861,
+     "source_samples": 516096
+    },
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleuniqueulfric\\mq304_mq304lostsoulblockin_000ea576_2.fuz",
+     "start": 1764,
+     "end": 546816,
+     "source_samples": 546816
+    }
+   ]
+  },
+  "maleyoungeager": {
+   "samples": 772572,
+   "clips": [
+    {
+     "path": "sound\\voice\\skyrim.esm\\maleyoungeager\\dialoguetu_tutorialcombat_000dba33_1.fuz",
+     "start": 1764,
+     "end": 406802,
+     "source_samples": 407552
+    },
+    {
+     "path": "sound\\voice\\dragonborn.esm\\maleyoungeager\\dlc2ttf1_dlc2ttf1talvasoth_0003921d_1.fuz",
+     "start": 0,
+     "end": 354304,
+     "source_samples": 354304
+    }
+   ]
+  }
+ }
+}

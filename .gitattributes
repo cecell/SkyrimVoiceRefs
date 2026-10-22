@@ -1,0 +1,4 @@
+* text=auto
+# bash scripts and workflow files must keep LF line endings, even when checked out on Windows
+*.sh text eol=lf
+*.yml text eol=lf

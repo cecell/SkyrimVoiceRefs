@@ -1,0 +1,12 @@
+# local work, never committed
+_downloads/
+_old/
+build/
+dist/
+.venv/
+__pycache__/
+*.pyc
+voices/
+*.wav
+*.xwm
+*.fuz
