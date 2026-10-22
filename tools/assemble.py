@@ -70,7 +70,9 @@ def main():
                 "see README.txt.\n\n"
                 "**No game audio or text is included.**\n\n"
                 "### Checks\n"
-                "- VirusTotal: _(link)_\n"
+                "- VirusTotal: "
+                + ", ".join(f"[{os.path.basename(p)}](https://www.virustotal.com/gui/file/{h})" for h, p in sums)
+                + "\n"
                 "- Microsoft Security Intelligence (developer submission): _(result)_\n"
                 f"- Built by GitHub Actions from this tag, with build provenance: "
                 f"`gh attestation verify {NAME}.exe --repo {repo}`\n\n"

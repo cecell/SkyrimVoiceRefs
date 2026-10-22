@@ -76,8 +76,8 @@ jobs:
           ./ffmpeg/ffmpeg.exe -hide_banner -demuxers | grep -q xwma
           ./ffmpeg/ffmpeg.exe -hide_banner -decoders | grep -q wmav2
           python source/build_voice_refs.py --help > /dev/null
-      # VirusTotal runs from the maintainer's PC (tools/scan_release.py), not here: the public API is for personal,
-      # non-commercial use, and it refused requests from the build machines.
+      # VirusTotal: the release notes link each file's report by its SHA-256; the maintainer uploads the zip and exe on
+      # virustotal.com (the free API allows 1 request a day, too few to scan from here).
       - uses: actions/attest-build-provenance@v2
         with:
           subject-path: |
