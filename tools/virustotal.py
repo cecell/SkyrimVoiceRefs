@@ -23,20 +23,26 @@ _last = [0.0]
 
 
 def call(method, url, body=None, ctype=None):
-    wait = 16 - (time.time() - _last[0])  # public API: 4 requests per minute
-    if wait > 0:
-        time.sleep(wait)
-    _last[0] = time.time()
-    req = urllib.request.Request(url if url.startswith("http") else API + url, data=body, method=method,
-                                 headers={"x-apikey": KEY, "accept": "application/json",
-                                          **({"content-type": ctype} if ctype else {})})
-    try:
-        with urllib.request.urlopen(req, timeout=300) as r:
-            return json.loads(r.read() or b"{}")
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return None
-        raise RuntimeError(f"VirusTotal {method} {url}: HTTP {e.code} {e.read()[:300]!r}")
+    for attempt in range(4):
+        wait = 16 - (time.time() - _last[0])  # public API: 4 requests per minute
+        if wait > 0:
+            time.sleep(wait)
+        _last[0] = time.time()
+        req = urllib.request.Request(url if url.startswith("http") else API + url, data=body, method=method,
+                                     headers={"x-apikey": KEY, "accept": "application/json",
+                                              **({"content-type": ctype} if ctype else {})})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                return json.loads(r.read() or b"{}")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            detail = e.read()[:300]
+            if e.code == 429 and attempt < 3:  # quota busy (per-minute limit or shared use): wait 1, 2, 4 min
+                print(f"VirusTotal quota busy, retrying in {60 << attempt} s", flush=True)
+                time.sleep(60 << attempt)
+                continue
+            raise RuntimeError(f"VirusTotal {method} {url}: HTTP {e.code} {detail!r}")
 
 
 def sha256(path):
