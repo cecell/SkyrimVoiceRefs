@@ -1,4 +1,4 @@
-# Verbatim copy of skyrimlib/bsa.py (C:\projects\skyrimlib, commit unknown), shipped so the installer needs no extra package.
+# Verbatim copy of bsa.py from the author's skyrimlib library, shipped so this tool needs no extra package.
 # Do not edit here: change skyrimlib and copy it again.
 """BSA v104 (zlib) / v105 (lz4 frame) reader plus a layered asset lookup.
 
