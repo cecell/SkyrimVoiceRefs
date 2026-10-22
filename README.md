@@ -85,6 +85,21 @@ GNU LGPL version 2.1 or later; `ffmpeg\LICENSE.txt` has the license and `ffmpeg\
 and build options. It is a separate program that `SkyrimVoiceRefs.exe` runs; you can replace it with any FFmpeg build
 that can decode xWMA.
 
+## A word about trust
+
+If you don't trust my build of ffmpeg.exe I don't blame you at all. My own AV flagged it, quarantined it and told me I
+needed to restart to get rid of the horrendous abomination that I had unleashed on it. Here's the address to download
+the full release that's 163 MB, it works just as well and the same way:
+[ffmpeg-n8.1-latest-win64-lgpl-8.1.zip](https://github.com/BtbN/FFmpeg-Builds/releases/latest) (put its
+`bin\ffmpeg.exe` in place of `ffmpeg\ffmpeg.exe`). I was just trying to make a smaller package for everyone but being
+helpful gets me in trouble a lot. If you don't trust the FFmpeg build at that address I can't help you anymore, ask
+Claude.
+
+If you don't trust this app's exe, I don't blame you for that either. Download Python from
+[python.org](https://www.python.org/downloads/windows/) and run the included script directly
+(`python source\build_voice_refs.py`). If you don't trust the script, heck, I still don't blame you. Give everything to
+Claude, let him tell you what it is and if it's safe. If you don't trust Claude, you're on your own. HFGL.
+
 ## License
 
 MIT, see `LICENSE`. This covers this project's code and manifest only. Skyrim, its voice recordings and its text belong

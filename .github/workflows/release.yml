@@ -76,6 +76,17 @@ jobs:
           ./ffmpeg/ffmpeg.exe -hide_banner -demuxers | grep -q xwma
           ./ffmpeg/ffmpeg.exe -hide_banner -decoders | grep -q wmav2
           python source/build_voice_refs.py --help > /dev/null
+      - name: VirusTotal scan
+        # needs the repository secret VT_API_KEY (a free VirusTotal account's API key); skipped without it.
+        # Results go to this run's summary page and into the draft release notes. A VirusTotal outage doesn't
+        # stop the build: the notes then keep their "(link)" placeholder.
+        continue-on-error: true
+        env:
+          VT_API_KEY: ${{ secrets.VT_API_KEY }}
+        shell: bash
+        run: |
+          python tools/virustotal.py dist/release-notes.md dist/SkyrimVoiceRefs-*.zip \
+            dist/SkyrimVoiceRefs/SkyrimVoiceRefs.exe dist/SkyrimVoiceRefs/ffmpeg/ffmpeg.exe
       - uses: actions/attest-build-provenance@v2
         with:
           subject-path: |
