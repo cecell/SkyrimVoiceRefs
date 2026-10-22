@@ -1,6 +1,6 @@
 """Scan release files on VirusTotal and report the results on GitHub (standard library only).
 
-usage: VT_API_KEY=... python tools/virustotal.py <release notes.md> <file> [<file> ...]
+usage: VT_API_KEY=... python tools/virustotal.py <release notes.md> <file> [<file> ...]   (normally via tools/scan_release.py)
 
 Uploads each file (unless VirusTotal already has it), waits for the analyses, then writes a results table to the
 GitHub job summary ($GITHUB_STEP_SUMMARY) and into the release notes in place of the "VirusTotal: _(link)_" line.
