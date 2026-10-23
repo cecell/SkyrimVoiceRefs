@@ -80,7 +80,8 @@ The exe is not code-signed, so Windows SmartScreen may say "Windows protected yo
 ## ffmpeg
 
 `ffmpeg\ffmpeg.exe` is [FFmpeg](https://ffmpeg.org), compiled by this repository's workflow from FFmpeg's official
-source with only what this tool needs (reading xWMA, decoding WMA v2, resampling, writing WAV). It is licensed under the
+source with only what this tool needs (reading xWMA, decoding WMA v2, resampling, writing WAV), plus a
+version-information resource so Windows and antivirus software can see what it is. It is licensed under the
 GNU LGPL version 2.1 or later; `ffmpeg\LICENSE.txt` has the license and `ffmpeg\SOURCE.txt` the exact source version
 and build options. It is a separate program that `SkyrimVoiceRefs.exe` runs; you can replace it with any FFmpeg build
 that can decode xWMA.

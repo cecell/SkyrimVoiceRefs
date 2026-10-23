@@ -15,6 +15,44 @@ SRC="${FFMPEG_SRC:-ffmpeg-src}"
 cd "$SRC"
 COMMIT="$(git rev-parse HEAD)"
 
+# The only change to FFmpeg's source: a version-information resource for ffmpeg.exe (FFmpeg's own fftoolsres.rc
+# holds just a manifest). An anonymous, unsigned little exe is what antivirus heuristics distrust most.
+VER="${TAG#n}"
+NUMVER="$(echo "$VER" | tr '.' ',' | awk -F, '{printf "%d,%d,%d,0", $1, $2, $3}')"
+if ! grep -q VERSIONINFO fftools/fftoolsres.rc; then
+  cat >> fftools/fftoolsres.rc <<EOF
+
+1 VERSIONINFO
+FILEVERSION $NUMVER
+PRODUCTVERSION $NUMVER
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "ProductName", "FFmpeg"
+      VALUE "ProductVersion", "$VER"
+      VALUE "FileVersion", "$VER"
+      VALUE "FileDescription", "FFmpeg $VER - xWMA to WAV build"
+      VALUE "CompanyName", "Built by github.com/Cecell/SkyrimVoiceRefs from the official FFmpeg source"
+      VALUE "LegalCopyright", "Copyright (C) the FFmpeg developers. LGPL 2.1 or later."
+      VALUE "InternalName", "ffmpeg"
+      VALUE "OriginalFilename", "ffmpeg.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
+EOF
+fi
+
 FLAGS=(
   --disable-everything --disable-autodetect --disable-network --disable-doc --disable-debug
   --disable-ffplay --disable-ffprobe --enable-ffmpeg
@@ -49,6 +87,8 @@ done
 {
   echo "FFmpeg source:  https://github.com/FFmpeg/FFmpeg (official mirror of git.ffmpeg.org)  tag $TAG, commit $COMMIT"
   echo "                https://github.com/FFmpeg/FFmpeg/tree/$COMMIT"
+  echo "changes:        fftools/fftoolsres.rc gets a version-information resource (product, version, LGPL notice);"
+  echo "                nothing else in FFmpeg's source is changed"
   echo "configure:      ${FLAGS[*]}"
   echo "DLLs used:      $DLLS"
 } > "$OUT/build-info.txt"

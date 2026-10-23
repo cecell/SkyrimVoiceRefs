@@ -52,8 +52,9 @@ def main():
     run = os.environ.get("GITHUB_RUN_ID")
     with open(os.path.join(ff, "SOURCE.txt"), "w", encoding="utf-8") as f:
         f.write("ffmpeg.exe is FFmpeg, licensed under the GNU Lesser General Public License version 2.1 or later\n"
-                "(LICENSE.md, COPYING.LGPLv2.1). It is unmodified FFmpeg source, compiled with only the parts this tool\n"
-                "needs, and it is a separate program: SkyrimVoiceRefs.exe only runs it to decode the game's xWMA audio.\n"
+                "(LICENSE.md, COPYING.LGPLv2.1). It is FFmpeg's official source with one addition - a version-information\n"
+                "resource for ffmpeg.exe - compiled with only the parts this tool needs. It is a separate program:\n"
+                "SkyrimVoiceRefs.exe only runs it to decode the game's xWMA audio.\n"
                 "You may replace it with any other FFmpeg build that can decode xWMA.\n\n"
                 + info +
                 f"\nBuilt by:       https://github.com/{repo}/blob/main/tools/build_ffmpeg.sh"
